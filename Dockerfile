@@ -1,6 +1,6 @@
 FROM ind3x/rpi-kibana
 
-# add our user and group first to make sure their IDs get assigned consistently
+# add  our user and group first to make sure their IDs get assigned consistently
 RUN apt-get update && apt-get install -y \
         ca-certificates \
         wget \
